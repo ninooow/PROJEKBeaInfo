@@ -1,0 +1,78 @@
+body{
+    background-color:#7a6ad8;
+}
+.row{
+    margin-top:40px;
+}
+
+
+.text-left .btn{
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.btn:hover {
+    background-color: #7a6ad8;
+    color: #fff;
+    transform: translateY(-7px);
+}
+.text-left:active {
+    transform: translateY(-1px);
+}
+.btn:hover i,
+.btn:hover span {
+    color: #fff; /* Warna yang diinginkan saat hover */
+}
+.btn i {
+    font-size: 20px;
+    margin-right: 8px; 
+    margin-left:3px;
+    color:#7a6ad8;
+    font-weight: bold;
+}
+
+.btn span {
+    color: #7a6ad8;
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+.text-center{
+    margin-bottom:0;
+    color:white;
+    font-weight:bold;
+    font-size: 48px;
+}
+
+.table-responsive {
+    padding:0 10px;
+    max-height:800px;
+}
+.table-container{
+    margin: 50px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 1200px) {
+    .text-left{
+        max-width: 80px;
+    }
+    .btn span {
+        display: none;
+    }
+    .text-center{
+        font-size: 40px;
+    }
+}
